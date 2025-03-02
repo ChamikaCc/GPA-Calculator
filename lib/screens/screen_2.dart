@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:confetti/confetti.dart';
 
+/// Screen2 displays the calculated GPA along with a confetti animation.
+/// It adapts its layout based on screen width to provide an optimal UI experience.
 class Screen2 extends StatefulWidget {
+  /// The GPA value passed from the previous screen.
   final double gpa;
 
+  /// Constructor to initialize Screen2 with a required GPA value.
   Screen2({required this.gpa});
 
   @override
@@ -42,9 +46,9 @@ class _Screen2State extends State<Screen2> {
           bool isWideScreen = constraints.maxWidth > 600;
           return Stack(
             children: [
-              Center( // Ensures no unwanted space
+              Center(
                 child: Container(
-                  width: constraints.maxWidth * 0.95, // Limits max width
+                  width: constraints.maxWidth * 0.95,
                   color: Color(0xFFfefefe),
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 20),
                   child: isWideScreen
@@ -65,7 +69,7 @@ class _Screen2State extends State<Screen2> {
                               ),
                             ),
                             SizedBox(width: 20),
-                            Expanded( // Ensures GPA section uses all available space
+                            Expanded(
                               flex: 2,
                               child: _buildGPASection(context),
                             ),
@@ -108,6 +112,7 @@ class _Screen2State extends State<Screen2> {
     );
   }
 
+  /// Builds the GPA display section, which adapts to the screen size.
   Widget _buildGPASection(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     return Column(
@@ -116,14 +121,14 @@ class _Screen2State extends State<Screen2> {
         Text(
           "Your GPA",
           style: TextStyle(
-            fontSize: screenWidth * 0.08, // Scales text size
+            fontSize: screenWidth * 0.08,
             fontWeight: FontWeight.bold,
             color: Color(0xFF3700B3),
           ),
         ),
         SizedBox(height: 20),
         Container(
-          width: screenWidth * 0.85, // Ensures it fits all screen sizes
+          width: screenWidth * 0.85,
           padding: EdgeInsets.all(16),
           decoration: BoxDecoration(
             color: Colors.white,
@@ -141,7 +146,7 @@ class _Screen2State extends State<Screen2> {
             child: Text(
               widget.gpa.toStringAsFixed(2),
               style: TextStyle(
-                fontSize: screenWidth * 0.1, // Adjusts font size
+                fontSize: screenWidth * 0.1,
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
               ),
@@ -152,4 +157,3 @@ class _Screen2State extends State<Screen2> {
     );
   }
 }
- 
