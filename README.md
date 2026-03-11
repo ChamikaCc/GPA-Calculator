@@ -6,7 +6,7 @@ A cross-platform GPA Calculator built with Flutter, supporting Android, iOS, Web
 
 ## ✨ Features
 
-- 📐 **GPA Calculation** — Calculate semester and cumulative GPA instantly
+- 📐 **GPA Calculation** — Calculate semester and cumulative GPA 
 - ➕ **Add / Edit / Delete Courses** — Manage your course list with ease
 - 🔢 **Multiple Grading Scales** — Supports 4.0, 5.0 grading systems
 - 📱 **Cross-Platform** — Runs on Android, iOS, Web, Windows, macOS, and Linux
@@ -18,7 +18,7 @@ A cross-platform GPA Calculator built with Flutter, supporting Android, iOS, Web
 ## 📸 Screenshots
 | Home Screen | Add Course | GPA Result |
 |-------------|------------|------------|
-| ![Home](assets/addC.jpeg) | ![Add](assets/addC2.jpeg) | ![Home](assets/addc6.jpeg) 
+| ![Home](assets/addC.jpeg) | ![Add](assets/addC2.jpeg) | ![Home](assets/addC6.jpeg) 
 ![Home](assets/addc7.jpeg) |![Home](assets/addc3.jpeg) | ![Result](assets/addc4.jpeg) |
 ![Home](assets/addc5.jpeg) |
 
@@ -112,7 +112,7 @@ GPA = Σ (Grade Points × Credit Hours) / Σ (Credit Hours)
 
 - [Flutter](https://flutter.dev/) — UI framework
 - [Dart](https://dart.dev/) — Programming language
-- [Provider](https://pub.dev/packages/provider) / [Riverpod](https://pub.dev/packages/flutter_riverpod) — State management _(update as applicable)_
+- [Provider](https://pub.dev/packages/provider) / [Riverpod](https://pub.dev/packages/flutter_riverpod) — State management 
 - [shared_preferences](https://pub.dev/packages/shared_preferences) — Local data persistence
 
 ---
@@ -146,37 +146,6 @@ flutter build web
 ```bash
 flutter build windows
 ```
-
----
-
-## 📄 API Documentation
-
-Auto-generated Dart documentation is available in the [`doc/api`](doc/api/) folder.
-
-To regenerate the docs:
-
-```bash
-dart doc .
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add your feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
 ---
 
 ## 👤 Author
@@ -186,4 +155,3 @@ GitHub: [@ChamikaCc](https://github.com/ChamikaCc)
 
 ---
 
-> ⭐ If you found this project helpful, please give it a star!
