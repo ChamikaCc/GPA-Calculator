@@ -17,10 +17,10 @@ A cross-platform GPA Calculator built with Flutter, supporting Android, iOS, Web
 
 ## 📸 Screenshots
 
-| Home Screen | Add Course | GPA Result |
 |-------------|------------|------------|
-| ![Home](assets/addC.jpeg) | ![Add](assets/addC2.jpeg) | ![Home](assets/addc3.jpeg) | |
-![Home](assets/addc4.jpeg) | ![Result](assets/addc5.jpeg) |
+| ![Home](assets/addC.jpeg) | ![Add](assets/addC2.jpeg) | ![Home](assets/addc3.jpeg) 
+![Home](assets/addc4.jpeg) |![Home](assets/addc6.jpeg) | ![Result](assets/addc7.jpeg) |
+![Home](assets/addc5.jpeg) |
 
 ---
 
